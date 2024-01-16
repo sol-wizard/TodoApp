@@ -1,0 +1,8 @@
+<div class="list-container">
+  <h1>Todo List</h1>
+  <mat-card *ngFor="let item of todoItems" class="todo-card">
+    <mat-card-content>
+      {{item.title}}
+    </mat-card-content>
+  </mat-card>
+</div>
